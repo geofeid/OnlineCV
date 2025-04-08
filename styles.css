@@ -117,6 +117,7 @@ body{
     background-color: #2f81ed5b;
     position: relative;
     border-radius: 12px;
+    margin-top: 7px;
 }
 .progress{
     height: 100%;
@@ -162,6 +163,10 @@ body{
     color: #f7f7f7;
     font-size: 1rem;
 }
+
+.skill-title::before {
+    content: unset;
+  }
 
 .sub-title{
     padding-top: 2rem;
@@ -266,6 +271,47 @@ body{
 }
 
 /*Media Querries*/
+
+@media screen and (max-width:1610px) and (min-width:1201px) {
+    .skill-title[data-short] {
+        /* This hides the text visually without affecting layout */
+        text-indent: -9999px;
+        white-space: nowrap;
+        overflow: hidden;
+        position: relative;
+      }
+    
+      .skill-title[data-short]::before {
+        content: attr(data-short);
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-indent: 0;
+        white-space: normal;
+      }
+    }
+
+
+@media screen and (max-width:990px) and (min-width:781px){
+    .tl-title[data-short] {
+        /* This hides the text visually without affecting layout */
+        text-indent: -9999px;
+        white-space: nowrap;
+        overflow: hidden;
+        position: relative;
+      }
+    
+      .tl-title[data-short]::before {
+        content: attr(data-short);
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-indent: 0;
+        white-space: normal;
+      }
+    }
+
+
 @media screen and (max-width:823px){
     .right-title::after{
         width: 40%;
@@ -288,6 +334,15 @@ body{
     .right-section{
         grid-column: span 4;
     }
+
+    .tl-title{
+        padding: 10px 0px;
+    }
+
+    .left-tl-content > .para {
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
 }
 @media screen and (max-width:1200px){
     .main-content{
@@ -302,10 +357,38 @@ body{
         width: 60%;
     }
 }
+
+
+
+
+@media screen and (max-width:475px) {
+    .skill-title[data-short], .right-title[data-short] {
+        /* This hides the text visually without affecting layout */
+        text-indent: -9999px;
+        white-space: nowrap;
+        overflow: hidden;
+        position: relative;
+      }
+    
+      .skill-title[data-short]::before, .right-title[data-short]::before {
+        content: attr(data-short);
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-indent: 0;
+        white-space: normal;
+      }
+    }
+
+
+
 @media screen and (max-width:390px){
     .name{
         font-size: 1.5rem;
     }
-}
+    
+    }
+    
+
 
 
