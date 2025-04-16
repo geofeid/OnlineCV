@@ -93,10 +93,10 @@ body{
     color: #2D9CDB;
 }
 
-.skills-section ul{
+.tech-skills-section ul{
     padding-top: 2rem;
 }
-.skills-section ul li{
+.tech-skills-section ul li{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: .4rem 0;
@@ -110,6 +110,33 @@ body{
     grid-template-columns: repeat(1, 1fr);
     padding: .4rem 0;
 }
+
+.languages-section ul{
+    padding-top: 2rem;
+}
+.languages-section ul li{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: .4rem 0;
+}
+
+.hobbies-section ul{
+    padding-top: 2rem;
+}
+
+.hobbies-section ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    color: #718096;
+}
+.hobbies-section ul li i{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    color: #2D9CDB;
+}
+
+
 
 .progress-bar{
     width: 100%;
@@ -231,7 +258,7 @@ body{
 
 .timeline {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Second column is twice as wide as the first */
+    grid-template-columns: 1fr 2fr; 
 }
 
 .tl-title{
@@ -270,6 +297,59 @@ body{
     color: inherit;
 }
 
+.phone{
+    margin-left: -2px;
+}
+
+.linkedin{
+margin-left: 1px;
+}
+
+.cv, .location{
+    margin-left: 3px;
+}
+
+.linkedin > i, .cv > i, .location > i {
+    margin-right: 1px;
+}
+
+.hobbies-section > ul > li:nth-child(1) {
+    margin-left: 5px;
+  }
+  .hobbies-section > ul > li:nth-child(1) > p.skill-title {
+    margin-left: 5px;
+  }
+  
+
+  
+  .hobbies-section > ul > li:nth-child(3) > p.skill-title {
+    margin-left: 5px;
+  }
+  
+  .hobbies-section > ul > li:nth-child(4) > i {
+    margin-left: -1px;
+  }
+  .hobbies-section > ul > li:nth-child(4) > p.skill-title {
+    margin-left: 1px;
+  }
+
+  .hobbies-section > ul > li:nth-child(5) > i {
+    margin-left: 3px;
+  }
+  .hobbies-section > ul > li:nth-child(5) > p.skill-title {
+    margin-left: 3px;
+  }
+
+  .header-space{
+    margin-bottom: 5px;
+  }
+
+  .read-more-toggle {
+    display: none; /* hide checkbox */
+  }
+  
+
+
 /*Media Querries*/
 
 @media screen and (max-width:1610px) and (min-width:1201px) {
@@ -292,6 +372,59 @@ body{
     }
 
 
+      @media screen and (max-width: 1200px) and (min-width: 600px) {
+        .left-content {
+          display: flex;
+          flex-direction: row; /* Allow items to flow horizontally */
+          flex-wrap: wrap; /* Wrap items to the next line if they don’t fit */
+          gap: 1rem; /* Optional: Add spacing between blocks */
+        }
+      
+        /* Full-width block */
+        div#technicalBlock {
+          order: 3;
+          flex: 1 1 100%; /* Take full width */
+        }
+      
+        /* Side-by-side pair 1: Contact and Soft Skills */
+        div#contactBlock {
+          order: 1;
+          flex: 1 1 45%; /* Take roughly half the width, with some flexibility */
+        }
+        div#softBlock {
+          order: 2;
+          flex: 1 1 45%; /* Pair with contactBlock */
+        }
+      
+        /* Side-by-side pair 2: Languages and Hobbies */
+        div#languagesBlock {
+          order: 4;
+          flex: 1 1 45%; /* Pair with hobbiesBlock */
+        }
+        div#hobbiesBlock {
+          order: 5;
+          flex: 1 1 45%; /* Pair with languagesBlock */
+        }
+
+        .main-title{
+            display: flex;
+            justify-content: center;
+        }
+        #languagesBlock, #hobbiesBlock, #contactBlock, #softBlock {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers children (like the ul) horizontally */
+          }
+          
+          #languagesBlock ul,  #contactBlock ul, #softBlock ul {
+            text-align: center; /* Centers the text within each li */
+          }
+          #hobbiesBlock ul{
+            margin-left: 1.3rem;
+          }
+      }
+
+
 @media screen and (max-width:990px) and (min-width:781px){
     .tl-title[data-short] {
         /* This hides the text visually without affecting layout */
@@ -310,6 +443,8 @@ body{
         white-space: normal;
       }
     }
+
+   
 
 
 @media screen and (max-width:823px){
@@ -358,12 +493,169 @@ body{
     }
 }
 
+@media screen and (max-width:660px){
+      .tl-title-2[data-short] {
+      
+            color: transparent;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-indent: -9999px;
+            
+          }
+        
+          .tl-title-2[data-short]::after {
+            content: attr(data-short);
+            white-space: pre-wrap; /* This is the KEY for respecting \A */
+            color: #2D9CDB;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: block;
+            text-indent: 1px;
+            margin-top: -1.5rem;
+           
+            
+          }
 
+    
+  
+  .read-more-content {
+    max-height: 9.5rem;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.4s ease;
+  }
+  
+  /* Expand on check */
+  .read-more-toggle:checked + .read-more-content {
+    max-height: 100rem;
+  }
+  
+  /* Read More / Show Less label */
+  .read-more-label {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #2D9CDB;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+
+  .read-more-toggle + .read-more-content + .read-more-label::after {
+    content: 'Read More';
+  }
+  
+  .read-more-toggle:checked + .read-more-content + .read-more-label::after {
+    content: 'Show Less';
+  }
+    }
+
+
+
+@media screen and (min-width:440px) and (max-width:599px){
+  
+        #contactBlock, #softBlock, #languagesBlock, #hobbiesBlock {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        #contactBlock .main-title, #technicalBlock .main-title, #softBlock .main-title, #languagesBlock .main-title, #hobbiesBlock .main-title {
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+      
+        #contactBlock ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 100%;
+          padding: 0;
+        }
+
+        #languagesBlock ul, #hobbiesBlock ul {
+            display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 80%;
+          padding: 0;
+        }
+      
+        #contactBlock ul li, #hobbiesBlock ul li {
+          width: 48%;
+          display: flex;
+          align-items: center;
+          margin-bottom: 0.5rem;
+          color: #718096;
+        }
+      
+        #contactBlock ul li i   {
+        padding-right: 0.5rem;
+          color: #2D9CDB;
+          font-size: 1.2rem;
+        }
+
+        #hobbiesBlock ul li i{
+            padding-right: 0.5rem;
+            color: #2D9CDB;
+            font-size: 1.2rem;
+        }
+
+        .cv > i  {
+           margin-left: 3px;
+        }
+      
+      
+        #contactBlock ul li:nth-child(7) {
+          order: 6;
+          width: 48%;
+          justify-content: flex-start;
+        }
+      
+        #contactBlock ul li:nth-child(1) { order: 0; } /* Phone */
+        #contactBlock ul li:nth-child(2) { order: 1; } /* Email */
+        #contactBlock ul li:nth-child(3) { order: 2; } /* LinkedIn */
+        #contactBlock ul li:nth-child(4) { order: 3; } /* GitHub */
+        #contactBlock ul li:nth-child(5) { order: 4; } /* Portfolio */
+        #contactBlock ul li:nth-child(6) { order: 5; } /* CV */
+      }
+    
+
+
+
+@media screen and (max-width:530px){
+    .link[data-short] {
+        text-indent: -9999px;
+        white-space: nowrap;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        
+    }
+  
+    .link[data-short]::before {
+        content: attr(data-short);
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-indent: 0;
+        white-space: normal;
+        display: inline-block;
+        width: 100%;
+        z-index: 2;
+        text-decoration: underline;
+    }
+}
 
 
 @media screen and (max-width:475px) {
     .skill-title[data-short], .right-title[data-short] {
-        /* This hides the text visually without affecting layout */
         text-indent: -9999px;
         white-space: nowrap;
         overflow: hidden;
@@ -382,12 +674,29 @@ body{
 
 
 
+
+
 @media screen and (max-width:390px){
     .name{
         font-size: 1.5rem;
     }
     
     }
+
+    @media screen and (max-width:375px){
+        .right-title::after {
+            width: 25%;
+        }
+        
+        }
+
+        @media screen and (max-width:355px){
+            .right-title::after {
+                width: 15%;
+            }
+            
+            }
+
     
 
 
