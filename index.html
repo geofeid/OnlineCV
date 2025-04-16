@@ -30,45 +30,50 @@
             Singular Logic S.A
             </p>
           </div>
-          <div class="contact-info">
+          <div class="contact-info" id="contactBlock">
             <h3 class="main-title">Contact Info</h3>
             <ul>
-              <li style="margin-left: -2px;">
+              <li class="phone">
                 <i class="fa-solid fa-phone"></i>
                 +306987106768
               </li>
               <li>
+                <i class="fa-regular fa-envelope"></i>
                 <a href="mailto:gfeidakis@outlook.com" class="link" >
-                  <i class="fa-regular fa-envelope"></i>gfeidakis@outlook.com
+                gfeidakis@outlook.com
+                </a>
+              </li>
+              <li class="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/gfeidakis" class="link" target="_blank" data-short="linkedin/gfeidakis">
+                 linkedin.com/in/gfeidakis
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/gfeidakis" class="link" target="_blank" style="margin-left: 1px;">
-                  <i class="fa-brands fa-linkedin" style="margin-right: 1px;"></i>linkedin.com/in/gfeidakis
-                </a>
-              </li>
-              <li>
+                <i class="fa-brands fa-github"></i>
                 <a href="https://github.com/geofeid" class="link" target="_blank">
-                  <i class="fa-brands fa-github"></i>github.com/geofeid
+                  github.com/geofeid
                 </a>
               </li>
               <li>
+                <i class="fa-solid fa-globe"></i>
                 <a href="https://geofeid.github.io/myportofolio/" class="link" target="_blank">
-                  <i class="fa-solid fa-globe"></i></i>myportofolio
+                  myportofolio
                 </a>
                 </li>
-                <li style="margin-left: 3px;">
+                <li class="cv">
+                  <i class="fa-solid fa-file"></i>
                   <a href="Georgios Feidakis CV.pdf" download="Georgios_Feidakis_CV.pdf" class="link" target="_blank">
-                    <i class="fa-solid fa-file" style="margin-right: 2px;"></i></i>Download CV
+                    Download CV
                   </a>
                   </li>
-              <li style="margin-left: 2px;">
-                <i class="fa-solid fa-location-dot" style="margin-right: 2px;"></i>
+              <li class="location">
+                <i class="fa-solid fa-location-dot"></i>
                  Alimos Attica 17456
               </li>
             </ul>
           </div>
-          <div class="skills-section">
+          <div class="tech-skills-section" id="technicalBlock">
             <h3 class="main-title">Technical Skills</h3>
             <ul>
               <li>
@@ -133,7 +138,7 @@
               </li>
             </ul>
           </div>
-          <div class="soft-skills-section">
+          <div class="soft-skills-section" id="softBlock">
             <h3 class="main-title">Soft Skills</h3>
             <ul>
               <li>
@@ -162,7 +167,7 @@
               </li>
             </ul>
           </div>
-          <div class="soft-skills-section">
+          <div class="languages-section" id="languagesBlock">
             <h3 class="main-title">Languages</h3>
             <ul>
               <li>
@@ -174,12 +179,12 @@
              
             </ul>
           </div>
-          <div class="contact-info">
+          <div class="hobbies-section" id="hobbiesBlock">
             <h3 class="main-title">Hobbies</h3>
             <ul>
-              <li style="margin-left: 5px;">
+              <li >
                 <i class="fa-solid fa-person-walking"></i>
-                <p class="skill-title" style="margin-left: 5px;">Exercising</p>
+                <p class="skill-title">Exercising</p>
               </li>
               <li>
                 <i class="fa-solid fa-plane"></i>
@@ -187,15 +192,15 @@
               </li>
               <li>
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <p class="skill-title" style="margin-left: 5px;">Exploring</p>
+                <p class="skill-title">Exploring</p>
               </li>
               <li>
-                <i class="fa-solid fa-hands-praying" style="margin-left: -1px;"></i>
-                <p class="skill-title"style="margin-left: 1px;">Meditating</p>
+                <i class="fa-solid fa-hands-praying" ></i>
+                <p class="skill-title">Meditating</p>
               </li>
-              <li style="margin-left: 2px;">
+              <li >
                 <i class="fa-solid fa-book-open-reader"></i>
-                <p class="skill-title" style="margin-left: 3px;">Reading</p>
+                <p class="skill-title">Reading</p>
               </li>
               <li>
                 <i class="fa-solid fa-handshake"></i>
@@ -209,6 +214,8 @@
         <div class="right-main-content">
           <section class="about sect">
             <h2 class="right-title">About Me</h2>
+            <input type="checkbox" id="aboutToggle" class="read-more-toggle">
+            <div class="read-more-content">
             <p class="para">
               I’m a passionate Software Engineer with strong expertise in
               Angular, TypeScript, and modern front-end technologies like
@@ -221,6 +228,8 @@
               continuous learning, and being part of collaborative teams that
               build purposeful tech.
             </p>
+          </div>
+          <label for="aboutToggle" class="read-more-label"></label>
           </section>
 
           <section class="experince sect">
@@ -232,7 +241,9 @@
               </div>
               <div class="right-tl-content">
                 <div class="tl-content">
-                  <h5 style="margin-bottom: 5px;" class="tl-title-2">Angular Developer / Dev ops Engineer</h5>
+                  <h5 class="tl-title-2 header-space" data-short="Angular / Dev ops Engineer">Angular Developer / Dev ops Engineer</h5>
+                  <input type="checkbox" id="aboutToggle" class="read-more-toggle">
+                  <div class="read-more-content">
                   <p class="para exp">
 
                     Developed scalable Angular applications across ecommerce,
@@ -262,6 +273,8 @@
                     streamline deployments and ensure CI/CD consistency.
                   </p>
                 </div>
+                <label for="aboutToggle" class="read-more-label"></label>
+                </div>
               </div>
             </div>
             <div class="timeline">
@@ -271,7 +284,9 @@
               </div>
               <div class="right-tl-content">
                 <div class="tl-content">
-                  <h5 class="tl-title-2" style="margin-bottom: 5px;">Angular developer / Team Leader</h5>
+                  <h5 class="tl-title-2 header-space"  data-short="Angular Team Leader">Angular developer / Team Leader</h5>
+                  <input type="checkbox" id="aboutToggle" class="read-more-toggle">
+                  <div class="read-more-content">
                   <p class="para exp" >
                     Refactored a legacy ASPX-based banking system into a modern
                     Angular UI, enhancing maintainability and user experience.
@@ -295,6 +310,8 @@
                     purchasing, improving conversion rates and usability.
                   </p>
                 </div>
+                <label for="aboutToggle" class="read-more-label"></label>
+                </div>
               </div>
             </div>
           </section>
@@ -307,7 +324,7 @@
               </div>
               <div class="right-tl-content">
                 <div class="tl-content">
-                  <h5 class="tl-title-2">
+                  <h5 class="tl-title-2 header-space" data-short="MSc Electrical and Electronics Engineering (eqf 7)">
                   Integraded  MSC DEPARTMENT OF ELECTRICAL AND ELECTRONICS ENGINEERING
                   </h5>
                  <p class="para exp" >
@@ -340,19 +357,19 @@
               </div>
               <div class="right-tl-content">
                 <div class="tl-content">
-                  <h5 class="tl-title-2">
+                  <h5 class="tl-title-2 header-space" data-short="GitHub Actions">
                     GitHub Actions - The Complete Guide
                   </h5>
                   <p class="para">
                     Automation · Custom GitHub Actions · Pipeline Development and Security
                   </p>
                   <br />
-                  <h5 class="tl-title-2">Jenkins, From Zero To Hero</h5>
+                  <h5 class="tl-title-2 header-space" data-short="Jenkins Zero To Hero">Jenkins, From Zero To Hero</h5>
                   <p class="para">
                     Jenkins · CI/CD Pipelines · DevOps · Docker · Ansible · Maven
                   </p>
                   <br />
-                  <h5 class="tl-title-2">
+                  <h5 class="tl-title-2 header-space" data-short="Docker & Kubernetes">
                     Docker & Kubernetes: The Practical Guide
                   </h5>
                   <p class="para">
@@ -368,7 +385,7 @@
               </div>
               <div class="right-tl-content">
                 <div class="tl-content">
-                  <h5 class="tl-title-2">Front-End Academy (960 hrs)</h5>
+                  <h5 class="tl-title-2 header-space" data-short="Front-End Academy">Front-End Academy (960 hrs)</h5>
                   <p class="para">
                     Figma, HTML/CSS, responsive design,JavaScript (ES6), popular
                     frameworks and libraries, SQL/NoSQL
@@ -383,12 +400,12 @@
               </div>
               <div class="right-tl-content">
                 <div class="tl-content">
-                  <h5 class="tl-title-2">
+                  <h5 class="tl-title-2 header-space" data-short="JS Algorithms and Data Structures">
                     JavaScript Algorithms and Data Structures
                   </h5>
                   <p class="para">ES6, OOP, Functional Programming</p>
                   <br />
-                  <h5 class="tl-title-2">Responsive Web Design</h5>
+                  <h5 class="tl-title-2 header-space">Responsive Web Design</h5>
                   <p class="para">HTML/CSS, Flexbox, Grid, Accessibility</p>
                 </div>
               </div>
@@ -400,7 +417,7 @@
                 </div>
                 <div class="right-tl-content">
                   <div class="tl-content">
-                    <h5 class="tl-title-2">Academy on Cloud Tools & Technology (240 HRS)</h5>
+                    <h5 class="tl-title-2 header-space" data-short="Cloud Tools & Technology">Academy on Cloud Tools & Technology (240 HRS)</h5>
                     <p class="para">
                         Backend C# and Rest Api fundamentals
                         </p>
@@ -417,7 +434,7 @@
               </div>
               <div class="right-tl-content">
                 <div class="tl-content">
-                  <h5 class="tl-title-2">Web Dev Course (104 hrs)</h5>
+                  <h5 class="tl-title-2 header-space" data-short="Web Dev Course">Web Dev Course (104 hrs)</h5>
                   <p class="para">
                     English workshop in Html, css, javascript, bootstrap and Angular. 
                     </p>
