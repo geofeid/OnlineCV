@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "online-cv-v2",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/marialenakonsta/Desktop/untitled folder/Dev/Online_CV/scripts/serve.mjs", "/Users/marialenakonsta/Desktop/untitled folder/Dev/Online_CV/dist", "5500"],
+      "port": 5500
+    },
+    {
+      "name": "onlinecv-old",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/marialenakonsta/Desktop/untitled folder/Dev/Online_CV/scripts/serve.mjs", "/Users/marialenakonsta/Desktop/untitled folder/Dev/OnlineCV", "5502"],
+      "port": 5502
+    },
+    {
+      "name": "myportofolio",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/marialenakonsta/Desktop/untitled folder/Dev/Online_CV/scripts/serve.mjs", "/Users/marialenakonsta/Desktop/untitled folder/Dev/myportofolio", "5503"],
+      "port": 5503
+    }
+  ]
+}
