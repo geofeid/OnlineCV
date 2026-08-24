@@ -130,7 +130,19 @@
     "CERT5_DATES": "Mar 2020 - May 2020",
     "CERT5_TITLE1": "Web Dev Course (104 hrs)",
     "CERT5_DESC1": "HTML, CSS, JavaScript, Bootstrap and Angular.",
-    "CERT5_DESC2": "Awarded as Most <b>Helpful</b>, <b>Committed</b>, and <b>Driven</b>."
+    "CERT5_DESC2": "Awarded as Most <b>Helpful</b>, <b>Committed</b>, and <b>Driven</b>.",
+    "CERT6_PROVIDER": "Workearly",
+    "CERT6_DATES": "Jul 2026",
+    "CERT6_TITLE1": "Remote Summer School",
+    "CERT6_DESC1": "Four-week programme: AI, communication, a specialisation and remote work.",
+    "CERT6_TITLE2": "Vibe Coder",
+    "CERT6_DESC2": "Prompt-driven development with Lovable, Cursor and v0; idea to prototype.",
+    "CERT6_TITLE3": "AI Productivity Specialist",
+    "CERT6_DESC3": "Prompt structure, AI-assisted drafting, automation of repetitive work.",
+    "CERT6_TITLE4": "Communication & Influence",
+    "CERT6_DESC4": "Interviews, written communication, negotiation and influence.",
+    "CERT6_TITLE5": "Remote Work Readiness",
+    "CERT6_DESC5": "Remote job channels, outreach and a productive remote setup."
   },
   "portfolio": {
     "home": {
@@ -208,7 +220,7 @@
         "category": "devops"
       },
       {
-        "name": "Prompting",
+        "name": "Prompt Engineering",
         "percent": "85%",
         "category": "ai"
       },
@@ -223,6 +235,26 @@
         "category": "frontend"
       },
       {
+        "name": "Professional communication",
+        "percent": "85%",
+        "category": "soft"
+      },
+      {
+        "name": "Problem solving",
+        "percent": "85%",
+        "category": "soft"
+      },
+      {
+        "name": "Attention to detail",
+        "percent": "85%",
+        "category": "soft"
+      },
+      {
+        "name": "Work ethic",
+        "percent": "85%",
+        "category": "soft"
+      },
+      {
         "name": "SCSS",
         "percent": "80%",
         "category": "frontend"
@@ -231,6 +263,26 @@
         "name": "LESS",
         "percent": "80%",
         "category": "frontend"
+      },
+      {
+        "name": "Adaptability",
+        "percent": "80%",
+        "category": "soft"
+      },
+      {
+        "name": "Team leadership",
+        "percent": "80%",
+        "category": "soft"
+      },
+      {
+        "name": "Stakeholder collaboration",
+        "percent": "80%",
+        "category": "soft"
+      },
+      {
+        "name": "Remote collaboration",
+        "percent": "80%",
+        "category": "soft"
       },
       {
         "name": "Docker",
@@ -256,6 +308,26 @@
         "name": "Angular Material",
         "percent": "75%",
         "category": "frontend"
+      },
+      {
+        "name": "Vibe coding",
+        "percent": "75%",
+        "category": "ai"
+      },
+      {
+        "name": "Rapid prototyping",
+        "percent": "75%",
+        "category": "ai"
+      },
+      {
+        "name": "Time management",
+        "percent": "75%",
+        "category": "soft"
+      },
+      {
+        "name": "Mentoring",
+        "percent": "75%",
+        "category": "soft"
       },
       {
         "name": "Node.JS",
@@ -301,6 +373,11 @@
         "name": "PrimeNG",
         "percent": "70%",
         "category": "frontend"
+      },
+      {
+        "name": "Negotiation & influence",
+        "percent": "70%",
+        "category": "soft"
       },
       {
         "name": "SQL",
@@ -359,6 +436,11 @@
       },
       {
         "name": "GitHub Copilot",
+        "percent": "65%",
+        "category": "ai"
+      },
+      {
+        "name": "AI for workflow automation",
         "percent": "65%",
         "category": "ai"
       },
@@ -509,6 +591,125 @@
       }
     ],
     "timeline": [
+      {
+        "type": "cert",
+        "start": "2026-07",
+        "date": "07/2026",
+        "title": "Remote Summer School",
+        "org": "Workearly",
+        "summary": "A four-week remote-work programme: a week each on AI tooling, communication, a chosen specialisation built through real projects, and finding remote work.",
+        "sections": [
+          {
+            "title": "What it covered",
+            "items": [
+              "Week one, AI Mastery: AI tools as everyday working tools rather than gadgets.",
+              "Week two, Communication & Influence: interviews, written communication, negotiation and influence.",
+              "Week three, specialisation: real projects in a chosen track — Vibe Coding, in my case.",
+              "Week four, Remote Ready: job boards, outreach, and the setup and habits of a productive remote day.",
+              "Four separate certifications issued across the four weeks."
+            ]
+          }
+        ],
+        "link": {
+          "label": "Verify on Credly",
+          "url": "https://www.credly.com/badges/1d20359d-63e6-40ee-87b0-a6c76d26acda"
+        }
+      },
+      {
+        "type": "cert",
+        "start": "2026-07",
+        "date": "07/2026",
+        "title": "Vibe Coder",
+        "org": "Workearly",
+        "summary": "The Vibe Coding 101 specialisation: describing an application and letting AI write the code, then taking it from prototype to something deployed.",
+        "sections": [
+          {
+            "title": "What it covered",
+            "items": [
+              "Prompt-driven development with Lovable, Cursor and v0.",
+              "Idea to working prototype inside a day.",
+              "Database, authentication and deployment basics.",
+              "Debugging and iterating with AI assistants."
+            ]
+          }
+        ],
+        "link": {
+          "label": "Verify on Credly",
+          "url": "https://www.credly.com/badges/3e6ad7ec-8b34-4a06-be77-f804c4ef5943"
+        }
+      },
+      {
+        "type": "cert",
+        "start": "2026-07",
+        "date": "07/2026",
+        "title": "AI Productivity Specialist",
+        "org": "Workearly",
+        "summary": "Using AI tools as daily working tools: prompt structure, drafting, automation, and knowing which model to reach for.",
+        "sections": [
+          {
+            "title": "What it covered",
+            "items": [
+              "Prompt structure that returns a usable answer the first time.",
+              "Writing emails, reports and content in minutes rather than hours.",
+              "Automating repetitive work: research, summaries and idea generation.",
+              "Choosing between tools: when ChatGPT, when Claude, when Gemini."
+            ]
+          }
+        ],
+        "link": {
+          "label": "Verify on Credly",
+          "url": "https://www.credly.com/badges/e12737dc-35b3-4008-b8ed-e4e401737ec7"
+        }
+      },
+      {
+        "type": "cert",
+        "start": "2026-07",
+        "date": "07/2026",
+        "title": "Communication & Influence",
+        "org": "Workearly",
+        "summary": "Communicating, persuading and presenting, online and in person — including how communication changes in hybrid and async teams.",
+        "sections": [
+          {
+            "title": "What it covered",
+            "items": [
+              "An interview framework for remote and in-person rounds.",
+              "Email structure that gets opened and answered.",
+              "Salary negotiation without the awkwardness.",
+              "A LinkedIn profile and bio written for recruiters.",
+              "Influencing colleagues and managers without pressure.",
+              "Working alongside AI and communicating in hybrid and async teams."
+            ]
+          }
+        ],
+        "link": {
+          "label": "Verify on Credly",
+          "url": "https://www.credly.com/badges/dce2c79d-6999-4437-8fe4-d8408c868e7b"
+        }
+      },
+      {
+        "type": "cert",
+        "start": "2026-07",
+        "date": "07/2026",
+        "title": "Remote Work Readiness",
+        "org": "Workearly",
+        "summary": "Finding remote work or clients, and setting up to do it well: the channels, the pitch, and the routine behind a productive remote day.",
+        "sections": [
+          {
+            "title": "What it covered",
+            "items": [
+              "The remote job boards and networks that actually carry roles.",
+              "CV and LinkedIn optimisation for remote positions.",
+              "Outreach scripts for winning freelance clients.",
+              "Home setup, tools and a routine for a productive remote day.",
+              "Time management, self-discipline and collaboration in distributed teams."
+            ]
+          }
+        ],
+        "link": {
+          "label": "Verify on Credly",
+          "url": "https://www.credly.com/badges/3a38e053-23d8-42a1-b7db-423ea8836421"
+        }
+      },
       {
         "type": "cert",
         "start": "2026-03",
@@ -861,7 +1062,7 @@
       {
         "name": "Portfolio & CV ecosystem",
         "type": "personal",
-        "year": "2023 - 2026",
+        "year": "2023",
         "description": "This site and my online CV, built as one system: a single content source feeds both, so a text or theme change publishes everywhere without touching either app.",
         "tech": [
           "Angular 22",
@@ -903,7 +1104,7 @@
       {
         "name": "CV generator with automated A4 PDF",
         "type": "personal",
-        "year": "2022 - 2026",
+        "year": "2022",
         "description": "A static-site generator that turns one content file into an online CV, a true-A4 print page and a downloadable PDF, so the published PDF can never drift from the site.",
         "tech": [
           "Node.js",
@@ -1100,44 +1301,51 @@
         "slug": "panousos-boats",
         "type": "freelance",
         "year": "2026",
-        "description": "Booking site for a licence-free boat rental business on Salamina, with a passcode-protected route guide app behind it for customers who have booked.",
+        "description": "A sea guide for a licence-free boat rental business on Salamina: an interactive chart with points of interest and coastal safety zones, installable on a phone and gated behind an owner-issued code.",
         "tech": [
           "Next.js",
-          "React",
+          "TypeScript",
+          "Mapbox GL",
+          "Postgres",
+          "Drizzle ORM",
+          "Tailwind CSS",
           "PWA"
         ],
         "image": "shots/panousos.png",
         "github": null,
         "live": "https://panousos-boats.com/",
         "highlights": [
-          "Single-page booking site in Greek: destinations around the island, the fleet, the story and direct contact.",
-          "Six named destinations presented as a carousel, so customers can picture the trip before they book.",
-          "A separate installable route guide app, gated behind a passcode, for customers who have taken a boat out.",
-          "Built as a PWA so the guide can be added to a phone's home screen."
+          "An interactive chart of the island with points of interest and marked starting points, all managed by the owner from an admin panel.",
+          "A permanent coastal safety band drawn 200 metres out from the shoreline, always on rather than a layer someone has to remember to enable.",
+          "Customer access through an entry code the owner can change at any time, without a developer in the loop.",
+          "Installable as a progressive web app, so the guide is on the phone before the boat leaves the dock.",
+          "Map styles trimmed to the ones customers actually use, after the extra options proved to be noise on a small screen."
         ],
         "caseStudy": {
           "facts": {
-            "team": "Freelance engagement",
+            "team": "Solo",
             "status": "Live"
           },
-          "headline": "A booking site for licence-free boat rentals, with a private installable route guide for customers once they are on the water.",
-          "context": "The business rents small boats that need no licence, on Salamina. Customers are day trippers who want to know where they can actually go before they commit, and then need guidance once they are out at sea.",
-          "goal": "Convert visitors into bookings with the destinations doing the selling, and give paying customers something useful on the water afterwards.",
-          "role": "Freelance engagement: built and delivered the site and the guide.",
+          "headline": "A guide that has to work on a phone, in sunlight, on the water — where the nearest support is back at the dock.",
+          "context": "The business rents small boats that need no licence, on Salamina. The customers are day trippers, often first-timers, and once they are out at sea nobody is there to answer questions about where they can go or which waters to stay out of.",
+          "goal": "Give paying customers a guide they can trust on the water, and give the owner full control of what it shows without needing a developer.",
+          "role": "Freelance engagement: designed and built the application and its admin panel.",
           "challenges": [
-            "The product is a day out, not a boat, so the site had to sell places rather than specifications.",
-            "The route guide is for customers only, which means a gate that is simple enough for a holidaymaker on a phone at the dock.",
-            "Guidance is consumed at sea, where connectivity is unreliable — hence an installable app rather than a web page to load on the spot."
+            "The guide is used at sea on a phone, where connectivity is unreliable and nobody is going to load a web page mid-trip.",
+            "Safety information cannot depend on the customer switching a layer on — it has to be visible whether or not anyone looks for it.",
+            "The owner runs the business alone, so changing a point of interest or the access code cannot require a developer.",
+            "Everything competes for a small screen in bright light, which turned out to mean removing features rather than adding them."
           ],
           "approach": [
-            "Single-page booking site in Greek: destinations around the island, the fleet, the story and direct contact.",
-            "Six named destinations presented as a carousel, so customers can picture the trip before they book.",
-            "A separate installable route guide app, gated behind a passcode, for customers who have taken a boat out.",
-            "Built as a PWA so the guide can be added to a phone's home screen."
+            "An interactive chart of the island with points of interest and marked starting points, all managed by the owner from an admin panel.",
+            "A permanent coastal safety band drawn 200 metres out from the shoreline, always on rather than a layer someone has to remember to enable.",
+            "Customer access through an entry code the owner can change at any time, without a developer in the loop.",
+            "Installable as a progressive web app, so the guide is on the phone before the boat leaves the dock.",
+            "Map styles trimmed to the ones customers actually use, after the extra options proved to be noise on a small screen."
           ],
           "results": [
-            "The booking site is live in Greek, with destinations, fleet and direct contact including phone and a booking call to action.",
-            "The route guide ships as an installable PWA behind a passcode, separate from the public site."
+            "Live, with the owner managing points of interest, starting points and the customer access code from the admin panel.",
+            "The coastal safety band is permanent, so the boundary is on the map whether or not the customer thinks to look for it."
           ]
         }
       },
